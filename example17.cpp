@@ -2,8 +2,9 @@
 #include <iostream>
 using namespace std;
 template <typename T>
-T sub(T &a,T &b){
-	return a+b;
+int larger(T &a,T &b){
+	if (a > b) return a;
+		else return b;
 }
 int main(){
 	int a, b;
